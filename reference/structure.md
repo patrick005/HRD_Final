@@ -1,4 +1,4 @@
-
+<!-- structure.md -->
 
 ```
 graph TD
