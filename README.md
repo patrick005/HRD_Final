@@ -6,8 +6,6 @@
 
 ## 프로젝트 담당자 연락 안내
 > 담당자: 정영재  
-> Tel.: +82 10-2732-8455  
-> Mobile/whatsapp/Wechat: +82 1027328455  
 > E-mail: yeongjae.jeong@gmail.com  
 
 ---
