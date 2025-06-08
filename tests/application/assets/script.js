@@ -51,7 +51,9 @@ async function sendToServer() {
   const base64 = uploadedImages[0].split(',')[1];
 
   // TODO: <server_ip>는 플라스크 서버 ip로 변경
-  const response = await fetch("http://<SERVER_IP>:5000/api/v1/_secure_predict_xyz123", {
+  // const response = await fetch("http://<SERVER_IP>:5000/api/v1/_secure_predict_xyz123", {
+  const response = await fetch("http://192.168.0.100:5000/api/v1/_secure_predict_xyz123", {
+
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
