@@ -1,0 +1,28 @@
+<!-- index.html: WebView 앱 메인 화면 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fashion Matcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Splash 화면 (5초 후 사라짐) -->
+  <div id="splash">
+    <h1>Fashion Matcher</h1>
+  </div>
+
+  <!-- 메인 앱 인터페이스 -->
+  <div id="main" style="display: none;">
+    <h2>이미지 업로드 및 추천 요청</h2>
+    <input type="file" id="fileInput" multiple />
+    <br />
+    <button onclick="uploadImages()">이미지 추가</button>
+    <button onclick="sendToServer()">서버에 전송</button>
+    <div id="imageList"></div>
+    <pre id="responseOutput"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
